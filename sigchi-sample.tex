@@ -128,7 +128,7 @@ not available.  Authors' names should be in Times Roman 12-point bold,
 and affiliations in Times Roman 12-point.  For more than three authors,
 you may have to place some address information in a footnote, or in a named
 section at the end of your paper. Please use full international addresses and
-telephone dialing prefixes.  Leave one 10-pt line of white space below the last
+telephone dialing prefixes.  \cite{Brown}Leave one 10-pt line of white space below the last
 line of affiliations.
 
 \subsection{Abstract and Keywords}
@@ -263,7 +263,7 @@ and placed beneath the figure or table.  Please note that the words
 rather than ``Fig.'') wherever they occur.
 
 Papers and notes may use color figures, which are included in the page
-limit; the figures must be usable when printed in black and white in
+limit; the figures must be usable when printed in black and white in 
 the proceedings.  The paper may be accompanied by a short video figure
 up to five minutes in length.  However, the paper should stand on its
 own without the video figure, as the video may not be available to
@@ -288,11 +288,11 @@ Dont worry about it and it makes the product much better and in order to make th
 \item Briefly define or explain all technical terms that may be
   unfamiliar to readers.
 \item Explain all acronyms the first time they are used in your text---e.g.,
-``Digital Signal Processing (DSP)''.
+``Digital Signal Processing (DSP)''.\cite{Diehl1987}
 \item Explain local references (e.g., not everyone knows all city
   names in a particular country).
 \item Explain ``insider'' comments. Ensure that your whole audience
-  understands any reference whose meaning you do not describe (e.g.,
+  understands any reference whose meaning you do not describe (e.g.
   do not assume that everyone has used a Macintosh or a particular
   application).
 \item Explain colloquial language and puns. Understanding phrases like
@@ -325,7 +325,7 @@ accepted papers, as page numbers, headers, and footers will be added
 by the conference printers.  Comment out the {\textbackslash}pagenumbering
 command at the top of the document to remove page numbers.
 
-\section{Producing and Testing PDF File
+\section{Producing and Testing PDF File}
 We recommend that you produce a PDF version of your submission well
 before the final deadline.  Your PDF file must be ACM DL
 Compliant. The requirements for an ACM Compliant PDF are available at:
@@ -356,7 +356,7 @@ guidelines and checklist for your submission category.
 \section{Conclusion}
 
 It is important that you write for the SIGCHI audience.  Please read
-previous years' Proceedings to understand the writing style and
+previous years' Proceedings to understand the writing style and\cite{Ballendat}
 conventions that successful authors have used.  It is particularly
 important that you state clearly what you have done, not merely what
 you plan to do, and explain how your work is different from previously
@@ -372,11 +372,10 @@ influencing the work of our field.
 We thank CHI, PDC and CSCW volunteers, and all publications support
 and staff, who wrote and provided helpful comments on previous
 versions of this document.  Some of the references cited in this paper
-are included for illustrative purposes only.  \textbf{Don't forget
+are included for illustrative purposes \cite{Ballendat}only.  \textbf{Don't forget
 to acknowledge funding sources as well}, so you don't wind up
 having to correct it later.
 
-\Section
 % Balancing columns in a ref list is a bit of a pain because you
 % either use a hack like flushend or balance, or manually insert
 % a column break.  http://www.tex.ac.uk/cgi-bin/texfaq2html?label=balance
@@ -399,9 +398,9 @@ having to correct it later.
 \balance
 
 % If you want to use smaller typesetting for the reference list,
-% uncomment the following line:
+% uncomment the following line:\nocite{*}
 % \small
+\nocite{*}
 \bibliographystyle{acm-sigchi}
-\bibliography{sample}
+\bibliography{sample,testing}
 \end{document}
-

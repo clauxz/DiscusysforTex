@@ -1,0 +1,8 @@
+﻿@inproceedings{Ballendat,
+   author = {Ballendat, T. and Marquardt, N. and Greenberg, S.},
+   title = {Proxemic interaction: designing for a proximity and orientation-aware environment},
+   publisher = {ACM},
+   pages = {121-130},
+
+}
+

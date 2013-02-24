@@ -1,4 +1,7 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{author}
+
 
 \bibitem{acrobat}
 {Adobe Acrobat Reader 7}.
@@ -12,6 +15,31 @@ Anderson, R.~E.
 \bibitem{acm_categories}
 {How to Classify Works Using ACM's Computing Classification System}.
 \newblock \url{http://www.acm.org/class/how_to_use.html}.
+
+\bibitem{Ballendat}
+Ballendat, T., Marquardt, N., and Greenberg, S.
+\newblock Proxemic interaction: designing for a proximity and orientation-aware
+  environment.
+\newblock 121--130.
+
+\bibitem{Brown}
+Brown, T.
+\newblock {\em Change by design: how design thinking transforms organizations
+  and inspires innovation}.
+\newblock HarperBusiness, 2009.
+
+\bibitem{2011clayphan}
+Clayphan, A., Collins, A., Ackad, C., Kummerfeld, B., and Kay, J.
+\newblock Firestorm: a brainstorming application for collaborative group work
+  at tabletops.
+\newblock 162--171.
+
+\bibitem{Diehl1987}
+Diehl, M., and Stroebe, W.
+\newblock Productivity loss in brainstorming groups: Toward the solution of a
+  riddle.
+\newblock {\em Journal of Personality and Social Psychology; Journal of
+  Personality and Social Psychology 53}, 3 (1987), 497.
 
 \bibitem{Klemmer:2002:WSC:503376.503378}
 Klemmer, S.~R., Thomsen, M., Phelps-Goodman, E., Lee, R., and Landay, J.~A.
